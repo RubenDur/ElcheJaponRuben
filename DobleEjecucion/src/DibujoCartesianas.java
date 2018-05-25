@@ -8,11 +8,11 @@ import java.lang.reflect.Method;
 
 public class DibujoCartesianas {
 
-    //Método a modificar. x e y están entre 0 y 1.
-    //El origen (0,0) está en la esquina inferior izquierda
+    //MÃ©todo a modificar. x e y estÃ¡n entre 0 y 1.
+    //El origen (0,0) estÃ¡ en la esquina inferior izquierda
 
     public static Color crear3franjas(double x, double y) {
-        if (x < 0.33) {
+/*        if (x < 0.33) {
             return new Color(255, 4, 28);
         }
         if (x < 0.66 && x > 0.33) {
@@ -40,7 +40,7 @@ public class DibujoCartesianas {
         }
 
 
-        return new Color(0, 0, 0);
+        return new Color(0, 0, 0);*/
     }
 
 
@@ -65,7 +65,7 @@ public class DibujoCartesianas {
     }
 
 
-    //NO MODIFICAR A PARTIR DE AQUÍ
+    //NO MODIFICAR A PARTIR DE AQUÃ�
 
     public static int ANCHO = 400;
     public static int ALTO = 400;
